@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/OsSyLab/Trading_Bots_with_Python/blob/4911351195c3a3d723f239680513b0a13bc26b0b/GITHUB%20Bannerlar%20(2).png"
+<img src="https://github.com/OsSyLab/Trading_Bots_with_Python/blob/90cde210ce6ed5ac41abf375703d9c7c94f8c4e1/GITHUB%20Bannerlar%20(3).png"
 </p>
 
 
