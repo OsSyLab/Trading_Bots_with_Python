@@ -7,7 +7,18 @@ Includes different strategies for algorithmic trading, such as:
 
 ## 🧠 Contents
 
-### 1. **Pairs Trading Bot**
+### 1. **DQN Trade Bot**
+- Strategy: Deep Q-Network with neural networks
+- Uses: Keras/Tensorflow for decision making
+- File: `dqn-crypto-trading-bot`
+
+### 2. **Q-Learning Trade Bot**
+- Strategy: Reinforcement Learning (Q-Learning)
+- Goal: Learn to trade based on reward/punishment system.
+- File: `btc-qlearning-tradebot`
+
+
+### 3. **Pairs Trading Bot**
 - Strategy: Statistical arbitrage using Z-Score & RSI.
 - Timeframes: 15m/1h (Bot2), 1h/1d (Bot1)
 - Notifications: Telegram alerts on high-confidence signals
@@ -19,23 +30,9 @@ Includes different strategies for algorithmic trading, such as:
 
 ---
 
-### 2. **Q-Learning Trade Bot**
-- Strategy: Reinforcement Learning (Q-Learning)
-- Goal: Learn to trade based on reward/punishment system.
-- File: `btc-qlearning-tradebot`
-
----
-
-### 3. **DQN Trade Bot**
-- Strategy: Deep Q-Network with neural networks
-- Uses: Keras/Tensorflow for decision making
-- File: `dqn-crypto-trading-bot`
-
----
-
 ## ⚙️ Installation
 
-```bash
+
 git clone https://github.com/OsSyLab/Trading_Bots_with_Python.git
 cd Trading_Bots_with_Python
 pip install -r requirements.txt
@@ -56,6 +53,11 @@ TELEGRAM_CHAT_ID
 📈 Disclaimer
 This project is for educational purposes only.
 Not financial advice. Trade at your own risk.
+
+📬 Contact
+
+📱 Follow me on X (Twitter): @OsSy_Lab
+                https://x.com/OsSy_Lab        
 
 **MIT License**  
 You are free to use, modify, and distribute this code with attribution.  
